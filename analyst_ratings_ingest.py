@@ -7,10 +7,10 @@ import os
 # --- Configuration ---
 # It's better to use environment variables for keys, but we'll hardcode for now.
 # Make sure to replace YOUR_FMP_API_KEY with your actual key.
-FMP_API_KEY = "cvEfpG1rjvcB0fvyNo5sh5hDizbe7uH7"
-SUPABASE_URL = "https://cdzkowllflvoptyuvrrm.supabase.co"
-SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNkemtvd2xsZmx2b3B0eXV2cnJtIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDkxNzgzODMsImV4cCI6MjA2NDc1NDM4M30.Boe4aglV3FmFT660cWpjMopEJqHG6zTdSrmDFebukuc"
-USER_ID = "c9396c7d-a75d-4d07-88bb-bc2db515cb40"
+FMP_API_KEY = 
+SUPABASE_URL = 
+SUPABASE_KEY = 
+USER_ID = 
 
 STOCKS = ["NVDA", "META", "TSLA", "MSFT", "AMD", "AAPL", "PLTR", "CRWD", "SHOP", "SPOT", "RIVN", "ZM", "SQ"]
 
