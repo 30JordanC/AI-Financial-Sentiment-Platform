@@ -10,9 +10,9 @@ from config import USER_EMAIL, USER_PASSWORD
 
 # TODO: Add your API keys/configs here
 REDDIT_CONFIG = {
-    'client_id': 'ahJABGw7aPjP2SSTGJWzgQ',
-    'client_secret': 'ymNMtIwMOavK4yxZKvFEuREjX0R4TA',
-    'user_agent': 'stock-scraper-script by /u/Sensitive-Pass-640',
+    'client_id': 
+    'client_secret': 
+    'user_agent': 
 }
 TWITTER_CONFIG = {
     # 'bearer_token': '',
@@ -41,8 +41,8 @@ TICKER_TO_COMPANY = {
     # Add more as needed
 }
 
-SUPABASE_URL = "https://cdzkowllflvoptyuvrrm.supabase.co"
-SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNkemtvd2xsZmx2b3B0eXV2cnJtIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDkxNzgzODMsImV4cCI6MjA2NDc1NDM4M30.Boe4aglV3FmFT660cWpjMopEJqHG6zTdSrmDFebukuc"
+SUPABASE_URL = 
+SUPABASE_KEY = 
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 
 
