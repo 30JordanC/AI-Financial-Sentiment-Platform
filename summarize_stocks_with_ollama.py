@@ -6,7 +6,7 @@ OLLAMA_URL = "http://localhost:11434/api/generate"
 OLLAMA_MODEL = "llama2:latest"
 
 # Load Reddit data
-with open("/Users/dylan/Desktop/stock code/polygonapitesting/src/app/reddit_stock_data.json") as f:
+with open("/Users/jordan/Desktop/stock code/polygonapitesting/src/app/reddit_stock_data.json") as f:
     data = json.load(f)
 
 # Group posts by ticker
