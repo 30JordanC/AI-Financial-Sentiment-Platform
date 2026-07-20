@@ -9,23 +9,23 @@ import aiohttp
 from typing import Optional
 
 # --- CONFIGURATION ---
-POLYGON_API_KEY = "BfaQ02SIQfP8piI4RK6HXgMowUHq2WDq"
-OLLAMA_URL = "http://localhost:11434/api/chat"
+POLYGON_API_KEY = 
+OLLAMA_URL = 
 
 # Supabase configuration
-SUPABASE_URL = "https://cdzkowllflvoptyuvrrm.supabase.co"
-SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNkemtvd2xsZmx2b3B0eXV2cnJtIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDkxNzgzODMsImV4cCI6MjA2NDc1NDM4M30.Boe4aglV3FmFT660cWpjMopEJqHG6zTdSrmDFebukuc"  # Use your anon/public key here
+SUPABASE_URL = 
+SUPABASE_KEY =   # Use your anon/public key here
 
 # Initialize Supabase client
 supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
 
 # Sign in as your user (replace with your email and password)
 user = supabase.auth.sign_in_with_password({
-    "email": "sfloresc@caltech.edu",
-    "password": "POTC33best$$"
+    "email": ,
+    "password": 
 })
 
-MY_UUID = "c9396c7d-a75d-4d07-88bb-bc2db515cb40"  # Updated to new Supabase user UUID
+MY_UUID =   # Updated to new Supabase user UUID
 
 def test_connection():
     """Test the connection to Supabase"""
