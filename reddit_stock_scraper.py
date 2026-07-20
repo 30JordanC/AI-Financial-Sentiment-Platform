@@ -9,8 +9,8 @@ from supabase import create_client, Client
 import re
 
 # Reddit API credentials (replace with your own)
-REDDIT_CLIENT_ID = 'ahJABGw7aPjP2SSTGJWzgQ'
-REDDIT_CLIENT_SECRET = 'ymNMtIwMOavK4yxZKvFEuREjX0R4TA'
+REDDIT_CLIENT_ID = 
+REDDIT_CLIENT_SECRET = 
 REDDIT_USER_AGENT = 'stock-scraper-script by /u/Sensitive-Pass-640'
 
 # Initialize Reddit API
@@ -73,10 +73,6 @@ print("Done scraping Reddit for stock tickers. Data saved to reddit_stock_data.j
 OLLAMA_URL = "http://localhost:11434/api/generate"
 OLLAMA_MODEL = "llama2:latest"
 
-# Load Reddit data
-# with open("/Users/dylan/Desktop/stock code/polygonapitesting/src/app/reddit_stock_data.json") as f:
-#     data = json.load(f)
-
 # Group posts by ticker
 posts_by_ticker = defaultdict(list)
 for post in results: # Use 'results' directly as it's already scraped
@@ -113,8 +109,8 @@ for ticker, posts in posts_by_ticker.items():
         match = re.search(r'(?:Sentiment rating|Rating)[:\s]+(\d(?:\.\d)?)', result, re.IGNORECASE)
     rating = float(match.group(1)) if match else None
 
-    SUPABASE_URL = "https://cdzkowllflvoptyuvrrm.supabase.co"
-    SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNkemtvd2xsZmx2b3B0eXV2cnJtIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDkxNzgzODMsImV4cCI6MjA2NDc1NDM4M30.Boe4aglV3FmFT660cWpjMopEJqHG6zTdSrmDFebukuc"  # <-- Replace with your anon key
+    SUPABASE_URL = 
+    SUPABASE_KEY =   # <-- Replace with your anon key
     supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 
     # Update the community_rating for the ticker
