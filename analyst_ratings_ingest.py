@@ -17,8 +17,8 @@ STOCKS = ["NVDA", "META", "TSLA", "MSFT", "AMD", "AAPL", "PLTR", "CRWD", "SHOP",
 # --- Initialize Supabase Client ---
 supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
 user = supabase.auth.sign_in_with_password({
-    "email": "sfloresc@caltech.edu",
-    "password": "POTC33best$$"
+    "email": 
+    "password": 
 })
 
 def fetch_analyst_ratings(ticker):
